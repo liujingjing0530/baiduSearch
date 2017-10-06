@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>仿baidu搜索框</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<div>
+    <input type="text" id="keyword" oninput="search()" autocomplete="off" onfocus="changeBorderColor(this)" onblur="changeBack(this)">
+    <button class="btn-search">百度一下</button>
+    <ul id="list">
+
+    </ul>
+</div>
+</body>
+<script src="./index.js"></script>
+</html>

@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul,li{
+    list-style: none;
+}
+button,input{
+    outline:none;
+}
+#keyword{
+    width:540px;
+    height:32px;
+    line-height:32px;
+    margin: 10px 0 0 120px;
+    border: 1px solid #B3B3B3;
+    padding-left:8px;
+    font-size: 14px;
+}
+.btn-search{
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    background: #427FEB;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    margin-left: -6px;
+}
+#list{
+    display: none;
+    position: absolute;
+    top:43px;
+    left:120px;
+    border:1px solid #ccc;
+    width:547px;
+    background-color: #fff;
+    box-shadow: 0 0 1px 0 #ccc;
+}
+#list li{
+    width:531px;
+    height:16px;
+    line-height: 16px;
+    padding: 2px 8px;
+    font:14px arial;
+}
+#list li.selected{
+    background: #f0f0f0;
+}
